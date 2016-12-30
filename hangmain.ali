@@ -1,0 +1,145 @@
+V "GNAT Lib v6.2"
+M P W=b
+A -mtune=k8
+P SS ZX
+R nnnnnnnvnnnnnnnnnnnnnnvnnnnnnnvnnnnnnvnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U hangmain%b		hangmain.adb		6dabc72a NE OO SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+W hangman%s		hangman.adb		hangman.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20080522031727 9c7dd3ea
+D a-calend.ads		20080522031635 19486c30
+D a-charac.ads		20080522031637 506ce725
+D a-chahan.ads		20080522031637 dcb15e96
+D a-chlat1.ads		20080522031637 e9ee6d0a
+D a-except.ads		20080522031647 b54b55de
+D a-finali.ads		20080522031650 9eaacebd
+D a-filico.ads		20080522031649 9299732a
+D a-inteio.ads		20080522031650 03bc737c
+D a-ioexce.ads		20080522031652 be0900a0
+D a-numeri.ads		20080522031658 1cf3e608
+D a-nudira.ads		20080522031657 56734efa
+D a-nudira.adb		20080522031657 cb202240
+D a-stream.ads		20080522031703 34aca5be
+D a-string.ads		20080522031704 87b4230b
+D a-strmap.ads		20080522031704 5253a637
+D a-strunb.ads		20080522031705 f0549c04
+D a-suteio.ads		20080522031709 d857a771
+D a-tags.ads		20080522031712 bfa07446
+D a-textio.ads		20080522031713 bc6e78fe
+D a-tiinio.ads		20080522031716 949a7272
+D a-tiunio.ads		20080522031717 d721fe49
+D a-unccon.ads		20080522031717 51e09df2
+D hangmain.adb		20150416201605 53257be0
+D hangman.ads		20150416200129 c0b163fe
+D interfac.ads		20080522031816 a69cad5c
+D i-cstrea.ads		20080522031813 e1e064a9
+D system.ads		20080522032001 53113720
+D s-crtl.ads		20080522031842 997234a1
+D s-exctab.ads		20080522031843 5c1c61ae
+D s-ficobl.ads		20080522031845 8bb681e5
+D s-finimp.ads		20080522031846 9449f4cb
+D s-finroo.ads		20080522031846 1408f9d1
+D s-parame.ads		20080522031916 f32e56e9
+D s-secsta.ads		20080522031919 7bae3621
+D s-soflin.ads		20080522031920 0c6fd39d
+D s-stache.ads		20080522031922 257b3be8
+D s-stalib.ads		20080522031922 52b793d5
+D s-stoele.ads		20080522031923 ed966df3
+D s-stoele.adb		20080522031923 e9998c78
+D s-stratt.ads		20080522031924 fef7c1da
+D s-traent.ads		20080522031936 bd5f2753
+D s-unstyp.ads		20080522031937 c0f9fae5
+D s-wchcon.ads		20080522031943 ab028799
+X 1 ada.ads
+16K9*Ada 19e8 24|1r6 1r23 2r6 3r6 3r35 4r6 4r33 5r6 5r28 6r6 6r36 7r6 8r6
+X 3 a-charac.ads
+16K13*Characters 18e19 24|3r10 3r39
+X 4 a-chahan.ads
+39K24*Handling 147e28 24|3w21 3r50
+X 9 a-inteio.ads
+18K13*Integer_Text_IO[21|48] 24|2w10
+X 10 a-ioexce.ads
+16K13*IO_Exceptions 28e22 24|8w10
+X 11 a-numeri.ads
+16K13*Numerics 32e17 24|7r10
+X 12 a-nudira.ads
+53k22*Discrete_Random 117e33 24|7w19
+X 15 a-string.ads
+16K13*Strings 35e16 24|4r10 4r37 5r10 5r32
+X 16 a-strmap.ads
+41K21*Maps 415e21 24|5w18 5r40
+X 17 a-strunb.ads
+42K21*Unbounded 431e26 24|4w18 4r45
+45R9*Unbounded_String 398e14 24|25r19
+50V13*Length{natural} 24|44r26
+105V13*Element{character} 24|50r42
+X 20 a-textio.ads
+51K13*Text_IO 483e16 24|1w10 1r27 6r10 6r40
+169U14*New_Line 24|36r9 38r9 39r9 60r25 64r25 68r25 85r25 86r25 95r33 102r33
+. 105r33
+209U14*Get 24|70r25 97r33 107r33
+211U14*Put 24|62r33
+245U14*Put 24|35r9 37r9 66r25 69r25 93r33 96r33 101r33 103r33 106r33
+X 22 a-tiunio.ads
+25K21*Unbounded_IO 61e29 24|6w18 6r48
+32U14*Put=34:42 24|94r33 104r33
+33r7 Item{17|45R9} 24|94r37 104r37
+X 24 hangmain.adb
+11U11*hangmain 11b11 115l5 115t13
+15r9 WordList{25|16R6} 33m18 43r36
+16e9 response{character} 41r16 41r36 97m37 107m37
+17e9 guess{character} 70m29 71r42 74r37
+18i9 MAXWRONG{integer} 88r49 90r42
+19i9 MAXCOR{integer} 44m17 45r29 49r29 61r37 73r37 87r47 100r40
+20i9 CorCount{integer} 57r37 76m41 76r52 80r29 87r36 100r29 109r51 111m25
+21i9 CorPrev{integer} 57m25 80r40
+22i9 Wrongcount{integer} 56r37 58r41 81m33 81r47 84r37 88r36 90r29 91r49
+. 109r38 110m25
+23i9 Wrongprev{integer} 56m25 84r49
+24i9 totalcount{integer} 109m25
+25r9 CurrWord{17|45R9} 43m17 44r33 50r50 94r45 104r45
+26r9 GuessStack{25|8R6} 42m23 67r31 71m30
+27A14 showWord(character)<integer> 28r21 29r22
+28a9 DispWord{27A14} 46m25 62r37 75m41
+29a9 CorrectWord{27A14} 50m25 74r45 75r56
+30a9 Man{25|5A6} 58m25 59r33 91m33 92r41
+45i21 i{integer} 46r34
+49i21 i{integer} 50r37 50r60
+61i29 i{integer} 62r46
+73i29 i{integer} 74r57 75r50 75r68
+X 25 hangman.ads
+3K9*hangman 24|9w6 9r19 25|80e12
+4A9*Line{string}<integer>
+5A6*ManArray(4A9)<integer> 24|30r21
+8R6*SType 24|26r21 25|11e11
+16R6*List_Type 24|15r19 25|78e17
+23U11*StackInit 24|42r13
+25U11*Push 24|71r25
+27U11*Print 24|67r25
+30U11*InitList 24|33r9
+32V10*GetWord{17|45R9} 24|43r28
+35V10*CreateMan{5A6} 24|58r31 91r39
+36U11*DrawMan 24|59r25 92r33
+37U11*ShowMessage 24|84r25
+
