@@ -1,5 +1,3 @@
-with "alire"; --  Uncomment this line to be able to compile the metadata Hangman_alr.ads file
-
 project Hangman is
 
    for Source_Dirs use (".");
