@@ -1,0 +1,15 @@
+name = "hangman"
+description = "Hangman game for the console"
+version = "1.0.0"
+
+authors = ["Jon Hollan", "Mark Hoffman", "Brandon Ball"]
+maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
+maintainers-logins = ["mosteo"]
+licenses = "custom-unknown"
+website = "https://github.com/alire-project/Hangman/"
+tags = ["game", "cli", "hangman", "console", "terminal"]
+
+executables = ["hangmain"]
+
+[configuration]
+disabled = true
