@@ -1,10 +1,5 @@
 With Ada.Text_IO; Use Ada.Text_IO;
-With Ada.Integer_Text_IO; Use Ada.Integer_Text_IO;
 With Ada.Characters.Handling; Use Ada.Characters.Handling;
-With Ada.Strings.Unbounded; Use Ada.Strings.Unbounded;
-With Ada.Integer_Text_IO; Use Ada.Integer_Text_IO;
-with ada.integer_text_io;
-use ada.integer_text_io;
 With Ada.Numerics.Discrete_Random;
 Package body hangman is
 Package random_num is new Ada.Numerics.Discrete_Random (Result_subtype => rng);
@@ -120,7 +115,6 @@ Procedure InitList(x: out List_Type) is
 
 subtype File_Type is Ada.Text_IO.File_Type; -- creates a subtype File_Type
 File_1: File_Type;
-Test_File : File_Type;
 c : character;
 line_data2 : Unbounded_String;
 Begin

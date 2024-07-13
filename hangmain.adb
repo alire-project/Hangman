@@ -1,11 +1,6 @@
 With Ada.Text_IO; Use Ada.Text_IO;
-With Ada.integer_text_io;
-With Ada.Characters.Handling; Use Ada.Characters.Handling;
 With Ada.Strings.Unbounded; Use Ada.Strings.Unbounded;
-With Ada.Strings.Maps; Use Ada.Strings.Maps;
 With Ada.Text_IO.Unbounded_IO; Use Ada.Text_IO.Unbounded_IO;
-With Ada.Numerics.Discrete_Random;
-With ada.io_exceptions;
 With hangman; Use hangman;
 
 Procedure hangmain is 
@@ -21,7 +16,6 @@ Procedure hangmain is
 	CorPrev   : integer:= 0;
 	Wrongcount: integer:= 0;
 	Wrongprev : integer := 0;
-	totalcount: integer:= 0;
 	CurrWord: Unbounded_String;
 	GuessStack: SType(26);
 	Type showWord is Array(Positive Range <>) of Character;
@@ -106,7 +100,6 @@ Begin
 				Put("Would you like to play again? y/n: ");
 				Get(response);
 			end if;
-			totalcount:= WrongCount + CorCount;
 			WrongCount:= 0;
 			CorCount := 0;
 			
